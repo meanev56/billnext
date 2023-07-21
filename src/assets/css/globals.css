@@ -1,0 +1,473 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fafafa;
+  font-family: "DM Serif Text", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  font-size: 14px;
+  color: black;
+  padding-top: 0px; /* Adjust this value to match the height of your header */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navitems a {
+  font-family: "DM Serif Text";
+  font-size: 14px;
+  line-height: 42px;
+  font-weight: 600;
+  text-transform: none;
+  color: black;
+  cursor: pointer;
+}
+
+.navitems p {
+  font-family: "DM Serif Text";
+  font-size: 14px;
+  line-height: 42px;
+  font-weight: 600;
+  text-transform: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+.navitemstwo a {
+  font-family: "DM Serif Text";
+  font-size: 14px;
+  line-height: 42px;
+  font-weight: 600;
+  text-transform: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navitemstwo p {
+  font-family: "DM Serif Text";
+  font-size: 14px;
+  line-height: 42px;
+  font-weight: 600;
+  text-transform: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.navsocial a {
+  font-size: 14px;
+  vertical-align: middle;
+  line-height: 35px;
+  color: white;
+}
+
+.logo-now {
+  width: 210px;
+}
+
+.hero-section-details h2 {
+  font-family: "DM Serif Text";
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #b29160;
+}
+
+.hero-section-details h3 {
+  font-family: "DM Serif Text";
+  font-size: 50px;
+  line-height: 0.9;
+  font-weight: 400;
+  color: white;
+}
+
+@media only screen and (max-width:1024px) {
+  .hero-section-details h3 {
+    font-size:30px;
+  }
+}
+
+.hero-section-details p {
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.hero-section-details h4 {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+}
+
+.hero-section-details .read-more {
+  padding: 14px 20px 14px;
+  border-radius: 50px;
+  background-color: #b29160;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.all-post-all h3 {
+  margin: 10px 0 8px;
+  font-family: "DM Serif Text";
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.all-post-all h4 {
+  font-family: "DM Serif Text";
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  color: black;
+}
+
+.all-post-all h5 {
+  font-family: "DM Serif Display";
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #767676;
+}
+
+.bg-black-black {
+  background-color: #06543c;
+}
+
+.bg-grey-grey {
+  background-color: #eaeaea;
+}
+
+.img-container-image {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Maintain a square aspect ratio (change as needed) */
+  position: relative;
+}
+
+.img-container-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-container-image-all {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.img-container-image-all img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img-container-image-recent {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.img-container-image-recent img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-column-one p {
+  font-family: "Work Sans";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-column-one a {
+  color: white;
+}
+
+.footer-column h1 {
+  font-family: "DM Serif Text";
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .different-h1 {
+    margin-top: 220px;
+  }
+}
+
+.footer-column h2 {
+  font-family: "PT Serif";
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+}
+
+.footer-column h3 {
+  font-family: "DM Serif Text";
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-column h4 {
+  font-family: "DM Serif Text";
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  color: white;
+}
+
+.footer-column h5 {
+  font-family: "PT Sans";
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: white;
+}
+
+.tdm-social {
+  width: 44.2px;
+  height: 44.2px;
+  line-height: 44.2px;
+  border-radius: 2px;
+  background: #b29160;
+  margin: 5px 10px 5px 0;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tdm-social i {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-align: center;
+  color: white;
+}
+
+.hr-rule {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hr-rule {
+    border-color: transparent;
+  }
+}
+
+.hr-rule-two {
+  border-color: #06543c;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+}
+
+.hr-rule-one {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.hero-section-details-two h2 {
+  color: #000000;
+  font-family: "DM Serif Text";
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero-section-details-two h3 {
+  font-family: "DM Serif Text";
+  font-size: 50px;
+  line-height: 0.9;
+  font-weight: 400;
+}
+
+
+.hero-section-details-two p {
+  color: #000000;
+  margin: 0 0 10px 0;
+  font-family: "PT Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.hero-section-details-two h4 {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero-section-details-two h3 {
+    font-size: 22px;
+  }
+  .hero-section-details-two h4 {
+    font-size: 12px;
+  }
+  .hero-section-details-two h2 {
+    font-size: 12px;
+  }
+}
+
+.hero-section-details-two .read-more {
+  padding: 14px 20px 14px;
+  border-radius: 50px;
+  background-color: #b29160;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-column p {
+  font-family: "Work Sans";
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-column input {
+  font-size: 12px;
+  line-height: 21px;
+  color: #444;
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  max-width: 100%;
+  height: 34px;
+  padding: 3px 9px;
+}
+
+.footer-column input:focus {
+  outline: none;
+  border: none;
+}
+
+.this-p p {
+  color: white;
+}
+
+.footer-column button {
+  width: 100%;
+  background-color: #b29160;
+  font-family: "DM serif text";
+
+  font-size: 13px;
+  border-radius: 0;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  font-weight: 500;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.ng-section-title {
+  color: #000000;
+  font-family: "DM Serif Text";
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ng-section-title {
+    font-size: 16px;
+  }
+}
+
+.ng-section-title-two {
+  color: #000000;
+  font-family: "DM Serif Text";
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ng-section-title-two {
+    font-size: 14px;
+  }
+}
+
+.ng-section-view-all {
+  font-family: "DM Serif Text";
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-transform: uppercase;
+}
